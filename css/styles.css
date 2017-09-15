@@ -3,13 +3,19 @@
 }*/
 
 body {
-	font-family: Tahoma, sans-serif;
-	color: #083D77;
-	background-color: #ECF39E;
+	font-family: 'Open Sans', sans-serif;
+	color: #2c1320;
+	background-color: #F4F1BB;
+}
+
+#title {
+	color:#cc5803;
+	text-shadow: 2px 2px 4px #F4F1BB;
 }
 
 #nav {
-	font-weight: 900;	
+	font-family: Roboto, sans-serif;
+	font-weight: ;
 	
 /*	background-image: url"../images/board2.png";
 	background-position: right top;
@@ -18,20 +24,57 @@ body {
 
 .header {
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	
 }
 
 .card-columns {
 	text-align: center;
 }
-
+#lead {
+	/*background-image: url("../images/artdeco.png");*/
+	background-color: #F5DD90;
+	color: #2c1320;
+	background-size: 50%;
+	background-position: right;
+	background-repeat: no-repeat;
+	text-shadow: 2px 2px 4px #F4F1BB;
+	border-style: double;
+	border-color: #7aa27a;
+}
 
 
 #about {
-	background-color: #fff;
-	/*text-shadow: 1px 1px 2px #F4F8CA;*/
+	background-color: #F5DD90;
+	/*border-style: double;
+	border-color: #7aa27a;
+	background-image:;*/
+	background-size: 25%;
+	background-position: top right;
+	background-repeat: no-repeat;
+	text-shadow: 1px 1px 2px #F4F8CA;
 }
 
-.btn-space {
+h4 {
+	font-weight:900;
+}
+
+
+/* Custom button color solution reference - https://stackoverflow.com/a/25933439 */
+.btn-custom {
+	color:#fff;
+	background-color:#7aa27a;
+	border-color:#2c1320;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	text-shadow: 0 0 0;
+}
+
+.btn-custom:hover, .btn-bustom:focus, .btn-custom:active, .btn-custom.active, .open>.dropdown-toggle.btn-custom {
+	color:#2c1320;
+	border-color:#7aa27a;
+	background-color:#F4F1BB;
 	margin-left: 5%;
 	margin-right: 5%;
 	text-align: center;

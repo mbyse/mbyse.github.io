@@ -10,89 +10,80 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab" rel="stylesheet">
   </head>
   
   <body>
     <!--Page Content -->
 	<div class="container-fluid">
 		<!--Navigation-->
-		<nav class="navbar navbar-toggleable-sm navbar-light fixed-top" style="background-color: #85D147" id="nav">
+		<nav class="navbar navbar-toggleable-sm navbar-light fixed-top" style="background-color: #7aa27a" id="nav">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand text-white" href="#nav">MB</a>
+			<a class="navbar-brand text-white" href="#nav"><img src="./images/monogram2.png" alt="monogram"></a>
 			<div class="collapse navbar-collapse" id="navbarText">
 				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" style="color: #fff;" href="#experience">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color: #fff;" href="#skills">Skills</a>
+					</li>
 					<li class="nav-item active">
-						<a class="nav-link" style="color: #083D77;" href="#about">About</a>
+						<a class="nav-link" style="color: #fff;" href="#about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" style="color: #083D77;" href="#experience">Experience</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" style="color: #083D77;" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" style="color: #083D77;" href="#contact">Get in Touch</a>
+						<a class="nav-link" style="color: #fff;" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 		<!--/Navigation-->
 		
-		<!--About-->
-		<div class="jumbotron jumbotron-fluid w-100 mt-5" id="about">
+		<!--Lead In-->
+		<div class="jumbotron jumbotron-fluid w-100 mt-5 rounded" id="lead">
 			<div class="container">
-				<!--
-				<p class="display-4 font-weight-bold">Miranda Byse</p>
-				<p class="display-5 font-weight-bold">Software Developer, Scientist, Program Manager</p>
-				-->
-				<h1 class="display-5">About Me</h1>
-				<p class="lead">&nbsp;&nbsp;&nbsp;What gets me excited is taking a mass of information and piecing it together to solve a problem, tell a story, or improve comprehension.
-				I enjoy working independently and also love brainstorming with other people. I am not afraid to admit my mistakes or take responsibility. 
-				I thrive under new challenges and am always eager to learn new content and technology. 
-				</p>
+				<p class="display-4 font-weight-bold" id="title">Miranda Byse</p>
+				<p class="font-italic font-weight-bold" style="font-size: 150%; weight:900;">Software Developer, Scientist, Program Manager</p>
 			</div>
 		</div>
-			
-		<!--/About-->
-		
+		<!--/Lead In-->
 		<!--Experience-->
 		<h1 class="header my-5" id="experience">Experience</h1>
 		<div class="card-deck">
 			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:75%" alt="Card image cap">
+			<img class="card-img-top img-fluid pt-3" src="./images/dev.png" style="margin:auto; width:75%" alt="Software Development Icon">
 				<div class="card-block">
 					<h4 class="card-title">Software Development</h4>
 					<p class="card-text">
 					<ul>
-						<li>Tech Academy Bootcamp</li>
-						<li>Shopify Store</li>
+						<li><a href="https://www.learncodinganywhere.com/" target="_new" title="The Tech Academy">The Tech Academy Bootcamp</a></li>
 					</ul>	
 					</p>
 				</div>
 			</div>
 			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:75%" alt="Card image cap">
+			<img class="card-img-top img-fluid pt-3" src="./images/handshake2.png" style="margin:auto; width:75%;" alt="Handshake Icon">
 				<div class="card-block">
 					<h4 class="card-title">Program Management</h4>
 					<p class="card-text">
 					<ul>
-						<li>Online Community of Practice</li>
-						<li>Professional Skills Training</li>
+						<li><a href="http://lifescitrc.org" target="_new" title="Life Science Teaching Resource Community">Life Science Teaching Resource Community (LifeSciTRC)</a></li>
+						<li><a href="http://www.the-aps.org/mm/Education/K-12/EducationProjects/LifeSciTRCScholars" target="_new" title="Life Science Teaching Resource Community Scholars">LifeSciTRC Scholars</a></li>
+						<li><a href="http://www.the-aps.org/mm/Education/GraduateProfessional/Educational-Projects/Prof-Skills-Training" target="_new" title="APS Professional Skills Training">Professional Skills Training</a></li>
 					</ul>	
 					</p>
 				</div>
 			</div>
 			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:75%" alt="Card image cap">
+			<img class="card-img-top img-fluid pt-3" src="./images/graph.png" style="margin:auto; width:75%" alt="Graph Icon">
 				<div class="card-block">
 					<h4 class="card-title">Science &amp; Data Research</h4>
 					<p class="card-text">
 					<ul>
 						<li>Web Analytics &amp; Reporting</li>
-						<li>Survey Data Collection &amp; Analysis</li>
-						<li>PhD in Physiology</li>
+						<li><a href="http://uknowledge.uky.edu/gradschool_diss/20/" target="_new" title="Dissertation">PhD in Physiology</a></li>
 					</ul>	
 					</p>
 				</div>
@@ -152,77 +143,31 @@
 			 </div>
 		  </div>
 		 </div>
-<!--
-		<div class="card-deck my-5">
-			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/HTML5_Logo_512.png" alt="HTML5 Logo">
-				<div class="card-block">
-					<h4 class="card-title">HTML5/CSS3</h4>
-				</div>
-			</div>
-			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:100" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Git</h4>
-					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
-			</div>
-			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:100" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Bootstrap</h4>
-					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
-			</div>
-			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:100" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Photoshop</h4>
-					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
-			</div>
-			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:100" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Analytics</h4>
-					<p class="card-text">
-					<ul>
-						<li>Google Analytics</li>
-						<li>Facebook Analytics</li>
-					</ul>			
-					</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
-			</div>
-			<div class="card">
-			<img class="card-img-top img-fluid" src="./images/owl.png" style="width:100" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Social Media</h4>
-					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
+		 
+		<!--About-->
+		<div class="jumbotron jumbotron-fluid my-5 rounded pt-4 pb-2" id="about">
+			<div class="container">
+				<!--
+				<p class="display-4 font-weight-bold">Miranda Byse</p>
+				<p class="display-5 font-weight-bold">Software Developer, Scientist, Program Manager</p>
+				-->
+				<h1 class="display-5">About Me</h1>
+				<p class="lead">&#9856;&nbsp;&nbsp;I revel in taking a mass of information and piecing it together to solve a problem, tell a story, or improve comprehension.<br />
+				&#9857;&nbsp;&nbsp;I enjoy working independently and also love brainstorming with other people.<br /> 
+				&#9858;&nbsp;&nbsp;I am not afraid to admit my mistakes or take responsibility. <br />
+				&#9859;&nbsp;&nbsp;I thrive under new challenges and am always eager to learn new content and technology. 
+				</p>
+				<p class="lead" id="contact"></h1>
+					<div class="card header w-100 border-0" id="about">
+						<div class="card-block">
+							<a class="btn btn-lg btn-custom" href="https://www.linkedin.com/in/mbyse/" role="button">LinkedIn</a>
+							<a class="btn btn-lg btn-custom"" href="https://github.com/mbyse" role="button">GitHub</a>
+						</div>
+					</div>
+				</p>
 			</div>
 		</div>
-	</div> -->
-	<!-- /Page Content -->
-	
-	<!--Get in Touch Footer-->
-	<h1 class="header my-5" id="contact">Get in Touch</h1>
-	<div class="card header w-100">
-		<div class="card-block">
-			<a class="btn btn-outline-success btn-lg btn-space" href="#" role="button">LinkedIn</a>
-			<a class="btn btn-outline-success btn-lg btn-space" href="#" role="button">GitHub</a>
-			<a class="btn btn-outline-success btn-lg btn-space" href="#" role="button">Email</a>
-		</div>
-	</div>
-	
-	
-	<!--/Get in Touch Footer-->
-	
-	
+		
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
