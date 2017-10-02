@@ -1,0 +1,187 @@
+/*html {
+	font-size: 1.1em;
+}*/
+
+body {
+	font-family: Roboto,'Roboto Slab','Open Sans', sans-serif;
+	color: #070707;
+	background-color: #EFEFEF;
+}
+
+/* unvisited link(#29abe2,17BEBB) */
+a:link {
+    color: #29abe2;
+}
+
+/* visited link(#D1345B)  */
+a:visited {
+    color: #D1345B;
+}
+
+/* mouse over link (#D95878)*/
+a:hover {
+    color: #D95878;
+}
+
+/* selected link (#D1345B) */
+a:active {
+    color: #D1345B;
+}
+
+
+
+.container {
+	/*max-width: 720px;*/
+	height: auto;
+	
+}
+
+/*~~Navigation Styling~~*/
+#nav {
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+	background-color: #363537;
+	
+/*	background-image: url"../images/board2.png";
+	background-position: right top;
+	background-repeat: no-repeat;*/
+}
+/*~~End~~*/ 
+
+
+/*~~Lead In Styling~~*/
+.jumbotron {
+	background-image: url("../images/artdeco.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: #D1345B;
+	color: #EFEFEF;
+	border-style: solid;
+	border-color: #070707;
+	/*text-shadow: 1px 0px 2px #EFEFEF;*/
+}
+
+/*~~End~~*/ 
+
+/*~~Main Button Styling~~*/
+
+.badge {
+	color: #EFEFEF;
+	background-color: #D1345B;
+}
+
+a.btn {
+	cursor: pointer;
+}
+/*~~End~~*/ 
+
+
+/*~~Sections Styling~~*/
+.sectbox {
+	background-color: #EFEFEF;
+	/*border-style: solid;
+	border-color: #D1345B;*/ 
+}
+
+.sectbox_sm {
+	color: #EFEFEF;
+	background-color: #363537;
+	border: solid; 
+	border-color:#070707;
+}
+
+
+.header {
+	/*text-shadow: 1px 0px 2px #EFEFEF;*/
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-weight: 900;	
+}
+
+h4 {
+	font-weight:900;
+}
+
+.card-columns {
+	text-align: center;
+}
+
+.bullet {
+	font-size: 115%;
+}
+/*
+.card-header {
+	color:#fff;
+	background-color:#7aa27a;
+	border-color:#2c1320;
+	text-align: center;
+	text-shadow: 0 0 0;
+}*/
+
+/*~~Footer~~*/
+
+.footer {
+	color:#29abe2;
+	background-color: #363537;
+}	
+
+/* Custom button color solution reference - https://stackoverflow.com/a/25933439 */
+.btn-custom {
+	background-color:#EFEFEF;
+	border-color:#D1345B;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	text-shadow: 0 0 0;
+}
+
+.btn-custom:hover, .btn-bustom:focus, .btn-custom:active, .btn-custom.active, .open>.dropdown-toggle.btn-custom {
+	color:#EFEFEF;
+	border-color:#D1345B;
+	background-color:#D1345B;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+/*~~End~~*/ 
+
+
+/*http://tobiasahlin.com/blog/how-to-animate-box-shadow/
+
+.overlay {
+	background-color: blue;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.overlay::after {
+  background-color: red;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+ }
+ 
+ .overlay:hover::after {
+  opacity: 1;
+}
+
+.icon {
+	max-width: 300px;
+	
+	
+}
+
+.iconText {
+	color: #7aa27a;
+	font-size: 200%;
+	font-weight: 900;
+}
+*/
+
+
+
+
+
+
+
+

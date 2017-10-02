@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Miranda Byse</title>
+	
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/styles_v3.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab" rel="stylesheet">
+  </head>
+  
+  <body>
+   <!--Page Content -->
+	
+	<div class="container-fluid footer fixed-top" style="text-align: right">
+		<a class="button popover-dismiss" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Top" href="#top">
+		<img src="./images/uparrow.png" class="py-2" style="width: 5%; height: auto;" alt="colorful circles"> 
+		</a>
+		
+	</div>
+	
+		<!--Navigation
+		<nav class="navbar-inverse navbar-expand-lg fixed-top" id="nav">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				
+			<div class="collapse navbar-collapse" id="navbarText">
+				navbar branding text or image goes here:
+				<a class="navbar-brand text-white" href="#nav"></a>
+				<ul class="navbar-nav mr-auto px-5 pb-2">
+					nav style not working if put in CSS, address later 
+					<li class="nav-item">
+						<a class="nav-link collapse"  href="#experience">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		Navigation-->
+	</div>
+	<div class="container-fluid" id="top">
+		<!--Lead In-->
+		<div class="jumbotron jumbotron-fluid mt-4 pb-5 rounded">
+			<div class="row my-2 pl-4 pr-0">
+				<!--<div class="col-3">
+					<img src="./images/artdeco.png" class="img-fluid" style="max-width: ; height: auto;"> 
+				</div>-->
+				<div class="col opaqbox">
+					<h1 class="font-weight-bold" id="title"> <span class="rounded px-2" style="background-color: rgba(209,52,91,0.8);">Miranda Byse</span></h1>
+					<h3 class="font-weight-bold" style="font-size:;"><span class="rounded px-2" style="background-color: rgba(209,52,91,0.8);">Software&nbsp;Developer, &nbsp;Scientist, &nbsp;Program&nbsp;Manager</span></h3>
+					<!--Note: Adding &nbsp; instead of space will keep words together on same line in flexbox-->
+				</div>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="col" >
+				<a class="btn" data-toggle="collapse" data-target="#experience" aria-expanded="true" aria-controls="experience" onclick="collapse1()">
+					<img src="./images/compicon.png" class="card-img-top" style="width: 100%; height: auto;" alt="computer icon">
+					<br>
+					<h2><span class="badge badge-pill">
+						Experience
+					</span></h2>
+				</a>	
+			</div>
+			<div class="col">
+				<a class="btn" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills" onclick="collapse2()">
+					<img src="./images/codeicon.png" class="card-img-top" style="width: 100%; height: auto;" alt="code icon">
+					<br>
+					<h2><span class="badge badge-pill px-4">
+						Skillset
+					</span></h2>
+				</a>
+			</div>
+			<div class="col">
+				<a class="btn" data-toggle="collapse" data-target="#about" aria-expanded="false" aria-controls="about" onclick="collapse3()">
+					<img src="./images/cofficon.png" class="card-img-top" style="width: 100%; height: auto;" alt="coffee icon"> 
+					<br>
+					<h2><span class="badge badge-pill">
+						Work Style
+					</span></h2>
+				</a>
+			</div>
+		</div>
+		<!--/Lead In-->
+		
+		<!--Experience-->
+		<div class="collapse show sectbox rounded py-4"  id="experience">
+			<h1 class="header mb-4"><span class="badge badge-pill">Experience</span></h1>
+			<div class="container rounded sectbox_sm">
+				<div class="row pt-4 pb-4" style="border: solid; border-color:#484749">
+					<div class="col">
+						<h4>Software Development</h4>
+					</div>	
+					<div class="col bullet">
+						<ul>
+							<li><a href="https://www.learncodinganywhere.com/" target="_new" title="The Tech Academy">The Tech Academy Bootcamp</a></li>
+						</ul>
+					</div>
+				</div>
+							
+				<div class="row pt-4 pb-4" style="border: solid; border-color:#484749">
+					<div class="col">
+						<h4>Program Management</h4>
+					</div>	
+					<div class="col bullet">
+						<ul>
+							<li><a href="http://lifescitrc.org" target="_new" title="Life Science Teaching Resource Community">Life Science Teaching Resource Community (LifeSciTRC)</a>
+							</li>
+							<li><a href="http://www.the-aps.org/mm/Education/K-12/EducationProjects/LifeSciTRCScholars" target="_new" title="Life Science Teaching Resource Community Scholars">LifeSciTRC Scholars</a>
+							</li>
+							<li>
+								<a href="http://www.the-aps.org/mm/Education/GraduateProfessional/Educational-Projects/Prof-Skills-Training" target="_new" title="APS Professional Skills Training">Professional Skills Training</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			
+				<div class="row pt-4 pb-4" style="border: solid; border-color:#484749">
+					<div class="col">
+						<h4>Science &amp; Data Research</h4>
+					</div>	
+					<div class="col bullet">
+						<ul>
+							<li>Web Analytics &amp; Reporting</li>
+							<li><a href="http://uknowledge.uky.edu/gradschool_diss/20/" target="_new" title="Dissertation">PhD in Physiology</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--/Experience-->
+		
+		<!--Skills-->
+		<div class="collapse sectbox rounded py-4" id="skills">
+			<h1 class="header mb-4"><span class="badge badge-pill">Skills</span></h1>
+			<div class="card-columns">
+			  <div class="card">
+				<div class="card-block">
+				  <a href="http://getbootstrap.com/" target="_new"><img class="card-img-top img-fluid" src="./images/bootstrap-solid.png" alt="Boostrap"></a>
+				  <h4 class="card-title">Boostrap</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="https://github.com/mbyse" target="_new"><img class="card-img-top img-fluid" src="./images/GitHub64px.png" alt="GitHub"></a>
+				  <h4 class="card-title">GitHub</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="https://git-scm.com/" target="_new"><img class="card-img-top img-fluid" src="./images/Git-Icon-1788C.png" alt="Git"></a>
+				  <h4 class="card-title">Git</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="https://analytics.google.com/" target="_new"><img class="card-img-top img-fluid" src="./images/google_analytics.png" alt="Google Analytics"></a>
+				  <h4 class="card-title">Google Analytics</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="https://www.w3.org/TR/html5/" target="_new"><img class="card-img-top img-fluid" src="./images/HTML5_Logo_512.png" alt="HTML5"></a>
+				  <h4 class="card-title">HTML5</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="https://www.w3.org/Style/CSS/" target="_new"><img class="card-img-top img-fluid" src="./images/HTML5_Styling_512.png" alt="CSS3"></a>
+				  <h4 class="card-title">CSS3</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="http://www.adobe.com/products/photoshop.html" target="_new"><img class="card-img-top img-fluid" src="./images/PS6.png" alt="Photoshop"></a>
+				  <h4 class="card-title">Photoshop</h4>
+				 </div>
+			  </div>
+			  <div class="card">
+				<div class="card-block">
+				  <a href="https://www.shopify.com" target="_new"><img class="card-img-top img-fluid" src="./images/shopify_glyph.png" alt="Shopify"></a>
+				  <h4 class="card-title">Shopify</h4>
+				 </div>
+			  </div>
+			</div>
+		</div>
+		 
+		<!--About-->
+		<div class="collapse sectbox rounded py-4" id="about">
+			<div class="container rounded sectbox_sm">		
+				<h1 class="header my-4"><span class="badge badge-pill">My Work Style</span></h1>
+				<div class="bullet">
+				<ul>
+					<li>I prefer working independently, but also excel in a team environment.</li>
+					<li>I enjoy solving puzzles, finding solutions to problems, and educating others. </li>
+					<li>I admit my mistakes, take responsibility, and plan how to avoid future repeats.</li>
+					<li>I thrive under new challenges and love learning new content and technologies.</li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!--closing container-fluid so footer will span entire viewport-->
+	<!--Footer-->
+	<footer>
+		<div class="container-fluid footer mt-4 py-2">
+		<div class="row align-items-center">
+			<div class="col ">
+				<p>Visit me on <a href="https://www.linkedin.com/in/mbyse/" role="button">LinkedIn</a><br />
+				See my projects on <a href="https://github.com/mbyse" role="button">GitHub</a></p>
+			</div>
+			<div class="col" style="text-align: right;">
+				<img src="./images/artdeco.png" class="card-img-top" style="width: 50%; height: auto;" alt="colorful circles">
+			</div>
+		</div>
+			
+		<!--<div class="container-fluid footer w-100 mx-0" style="">
+			<a class="btn btn-lg btn-custom" href="https://www.linkedin.com/in/mbyse/" role="button">LinkedIn</a>
+			<a class="btn btn-lg btn-custom" href="https://github.com/mbyse" role="button">GitHub</a>
+			<button type="button" class="btn btn-lg btn-custom" data-toggle="modal" data-target="#email">Email</button>
+		</div>-->
+	</footer>
+	<!--/footer-->
+	
+	<!--email modal
+	<div class="modal fade" id="email">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title">Contact e-mail address:</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+				<p>mbyse&#64;outlook.com</p>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	/email modal-->
+		
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  
+	<!--Scripting-->
+	<script>
+	
+	 //collapse skills and work style sections when experience button clicked
+	 function collapse1() {
+		$('#skills').collapse('hide');
+		$('#about').collapse('hide');
+		console.log(1);
+		};
+	 
+	 //collapse experience and work style sections when skills button clicked
+	  function collapse2() {
+		$('#experience').collapse('hide');
+		$('#about').collapse('hide');
+		console.log(2);
+		};
+	 
+	 //collapse skills and experience sections when work style button clicked
+	  function collapse3() {
+		$('#experience').collapse('hide');
+		$('#skills').collapse('hide');
+		console.log(3);
+		};
+	  
+	  //popover on hover
+		 $('[data-toggle="popover"]').popover(); 
+	  
+	  $('.popover-dismiss').popover({
+	  trigger: 'focus'
+	});
+	  
+	</script>
+  </body>
+
+
+  </html>
