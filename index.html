@@ -51,7 +51,7 @@
 		</nav>
 		Navigation-->
 	</div>
-	<div class="container" id="top">
+	<div class="container-fluid" id="top">
 		<!--Lead In-->
 		<div class="jumbotron jumbotron-fluid mt-4 pb-5 rounded">
 			<div class="row my-2 pl-4 pr-0">
@@ -67,9 +67,9 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="row"  >
-			<div class="col-8 offset-2 col-sm-6 sm-offset-0 col-md-4 md-offset-0">
-				<a class="btn" data-toggle="collapse" data-target="#experience" aria-expanded="true" aria-controls="experience" onclick="collapse1()">
+		<div class="row">
+			<div class="col-8 col-sm-6 col-md-4 mx-auto">
+				<a class="btn" href="#experience" data-toggle="collapse" data-target="#experience" aria-expanded="true" aria-controls="experience" onclick="collapse1()">
 					<img src="./images/compicon.png" class="card-img-top" style="width: 100%; height: auto;" alt="computer icon">
 					<br>
 					<h2><span class="badge badge-pill">
@@ -77,7 +77,7 @@
 					</span></h2>
 				</a>	
 			</div>
-			<div class="col-8 offset-2 col-sm-6 sm-offset-0 col-md-4 md-offset-0">
+			<div class="col-8 col-sm-6 col-md-4 mx-auto">
 				<a class="btn" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills" onclick="collapse2()">
 					<img src="./images/codeicon.png" class="card-img-top" style="width: 100%; height: auto;" alt="code icon">
 					<br>
@@ -86,7 +86,7 @@
 					</span></h2>
 				</a>
 			</div>
-			<div class="col-8 offset-2 col-sm-6 sm-offset-0 col-md-4 md-offset-0">
+			<div class="col-8 col-sm-6 col-md-4 mx-auto">
 				<a class="btn" data-toggle="collapse" data-target="#about" aria-expanded="false" aria-controls="about" onclick="collapse3()">
 					<img src="./images/cofficon.png" class="card-img-top" style="width: 100%; height: auto;" alt="coffee icon"> 
 					<br>
@@ -102,7 +102,7 @@
 		<!--/Lead In-->
 		
 		<!--Experience-->
-		<div class="collapse show sectbox rounded py-4"  id="experience">
+		<div class="collapse show sectbox rounded py-4" id="experience">
 			<h1 class="header mb-4"><span class="badge badge-pill">Experience</span></h1>
 			<div class="container rounded sectbox_sm">
 				<div class="row pt-4 pb-4" style="border: solid; border-color:#484749">
@@ -222,14 +222,13 @@
 	</div> <!--closing container-fluid so footer will span entire viewport-->
 	<!--Footer-->
 	<footer>
-		<div class="container-fluid footer mt-4 py-2">
-		<div class="row align-items-center">
-			<div class="col ">
-				<p>Visit me on <a href="https://www.linkedin.com/in/mbyse/" role="button">LinkedIn</a><br />
+		<div class="d-flex justify-content-end align-items-end flex-row footer">
+			<div class="mr-auto p-2">
+			Visit me on <a href="https://www.linkedin.com/in/mbyse/" role="button">LinkedIn</a><br />
 				See my projects on <a href="https://github.com/mbyse" role="button">GitHub</a></p>
 			</div>
-			<div class="col" style="text-align: right;">
-				<img src="./images/artdeco.png" class="card-img-top" style="width: 50%; height: auto;" alt="colorful circles">
+			<div class="p-2">
+				<img class="" style="" src="./images/artdeco_200.png" alt="colorful circles">
 			</div>
 		</div>
 			
@@ -276,7 +275,7 @@
 		$('#about').collapse('hide');
 		console.log(1);
 		};
-	 
+		 
 	 //collapse experience and work style sections when skills button clicked
 	  function collapse2() {
 		$('#experience').collapse('hide');
