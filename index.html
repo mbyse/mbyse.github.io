@@ -18,7 +18,7 @@
 	
 	<div class="container-fluid footer fixed-top" style="text-align: right; max-height: ;">
 		<a class="button popover-dismiss" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Top" href="#top">
-		<img src="./images/uparrow.png" class="py-1 img-fluid" style="max-width: 50px; height: auto" alt="up arrow"> 
+		<img src="./images/uparrow.png" class="py-1 img-fluid" style="max-height: 40px; padding: 5px;" alt="up arrow"> 
 		</a>
 		
 	</div>
@@ -70,7 +70,7 @@
 		<div class="row">
 			<div class="col-8 col-sm-6 col-md-4 mx-auto">
 				<a class="btn" href="#experience" data-toggle="collapse" data-target="#experience" aria-expanded="true" aria-controls="experience" onclick="collapse1()">
-					<img src="./images/compicon.png" class="card-img-top" style="width:99%; height: auto;" alt="computer icon">
+					<img src="./images/compicon.png" class="card-img-top" style="width:99%; height: auto; max-width:254px;" alt="computer icon">
 					<br>
 					<h2><span class="badge badge-pill">
 						Experience
@@ -79,7 +79,7 @@
 			</div>
 			<div class="col-8 col-sm-6 col-md-4 mx-auto">
 				<a class="btn" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills" onclick="collapse2()">
-					<img src="./images/codeicon.png" class="card-img-top" style="width:99%; height: auto;" alt="code icon">
+					<img src="./images/codeicon.png" class="card-img-top" style="width:99%; height: auto; max-width:254px;" alt="code icon">
 					<br>
 					<h2><span class="badge badge-pill px-4">
 						Skillset
@@ -88,7 +88,7 @@
 			</div>
 			<div class="col-8 col-sm-6 col-md-4 mx-auto">
 				<a class="btn" data-toggle="collapse" data-target="#about" aria-expanded="false" aria-controls="about" onclick="collapse3()">
-					<img src="./images/cofficon.png" class="card-img-top" style="width:99%; height: auto;" alt="coffee icon"> 
+					<img src="./images/cofficon.png" class="card-img-top" style="width:99%; height: auto; max-width:254px;" alt="coffee icon"> 
 					<br>
 					<h2><span class="badge badge-pill">
 						Work Style
@@ -261,43 +261,14 @@
 	</div>
 	/email modal-->
 		
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- jQuery first, then Tether, then Bootstrap JS, then knockout.js. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  
-	<!--Scripting-->
-	<script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js" integrity="sha256-owX7sroiO/O1a7h3a4X29A1g3QgqdNvijRQ7V5TH45M=" crossorigin="anonymous"></script>
+	<!--Script-->
+	<script src="./scripts/script.js"></script>
 	
-	 //collapse skills and work style sections when experience button clicked
-	 function collapse1() {
-		$('#skills').collapse('hide');
-		$('#about').collapse('hide');
-		console.log(1);
-		};
-		 
-	 //collapse experience and work style sections when skills button clicked
-	  function collapse2() {
-		$('#experience').collapse('hide');
-		$('#about').collapse('hide');
-		console.log(2);
-		};
-	 
-	 //collapse skills and experience sections when work style button clicked
-	  function collapse3() {
-		$('#experience').collapse('hide');
-		$('#skills').collapse('hide');
-		console.log(3);
-		};
-	  
-	  //popover on hover
-		 $('[data-toggle="popover"]').popover(); 
-	  
-	  $('.popover-dismiss').popover({
-	  trigger: 'focus'
-	});
-	  
-	</script>
   </body>
 
 
