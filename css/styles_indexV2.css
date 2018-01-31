@@ -1,0 +1,163 @@
+/*html {
+	font-size: 1.1em;
+}*/
+
+#bootstrap-overrides .nav-link.active {
+	background-color: #FFFFFF
+	
+}
+
+.card {
+	border-style: solid;
+	border-color: #ffe74c;
+	border-width: 2px 2px 2px 2px; 
+}
+
+
+body {
+	font-family: Roboto,'Roboto Slab','Open Sans', sans-serif;
+	color: #070707;
+	background-color: #FFFFFF;
+}
+/* colors
+blue: #29abe2
+green: #69c637  #9fcc5c
+yellow: #ffe74c
+black: #070707
+*/
+
+/*~~Links Styling~~*/
+
+/* unvisited link(#29abe2,17BEBB) */
+a:link {
+    color: #69c637;
+}
+
+/* visited link(#D1345B)  */
+a:visited {
+    color: #69c637;
+}
+
+/* mouse over link (#D95878)*/
+a:hover {
+    color: #C14953;
+}
+
+/* selected link (#D1345B) */
+a:active {
+    color: #C14953;
+}
+
+
+/*~~Navigation Styling~~*/
+#nav {
+	font-weight: 600;
+	background-color: #462e00;
+	font-family: Poppins, sans-serif;
+	
+	
+}
+
+.oi{
+	color: #69c637;
+}
+
+/*~~Home/Footer Styling~~*/
+#top {
+	background-image: url("../images/coffee-laptop.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #2e1c00;
+	color: #FFF;
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 8px 8px 0px 8px;
+	width: 100%
+}
+
+#title{
+	margin: 5% 5% 0% 5%;
+	text-align: top left;
+	text-shadow: 2px 2px 8px #070707;
+}
+
+#footer {
+	text-align: top left;
+	
+}
+
+.footer {
+	background-color: #2e1c00;
+	color: #69c637;
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 0px 8px 8px 8px;
+	border-style: solid;
+	width: auto;
+}	
+
+/*~~Sections Styling~~*/
+.header {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-weight: 900;	
+	
+}
+
+.badge {
+	color: #FFF;
+	text-shadow: 2px 2px 8px #070707;
+	background-color: #29abe2;
+	padding: 2%;
+}
+
+.section {
+	background-color: #2e1c00;
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 8px 8px 0px 8px;
+	width: auto;
+}
+
+
+
+.sectbox_sm {
+	color: #070707;
+	background-color: #D9D5C0;
+	border: solid;
+	border-width: 1px;
+	border-color:#C14953;
+	max-width: 760px;
+	
+}
+
+dl {
+	margin-top: 1rem;
+}
+
+#skillBox {
+	max-width: 510px;
+
+}
+
+#code a:link {
+    color: #070707;
+}
+
+#code a:visited {
+    color: #070707;
+}
+
+
+
+
+
+
+
+
+
+
+
